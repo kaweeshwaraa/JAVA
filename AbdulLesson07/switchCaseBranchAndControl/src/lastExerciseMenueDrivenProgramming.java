@@ -37,6 +37,9 @@ public class lastExerciseMenueDrivenProgramming {
                 System.out.println(userInput1 +  " / " + " " + userInput2 + " " + " = " + (userInput1 / userInput2));
                 break;
             }
+            default:{
+                System.out.println("Invalid Option");
+            }
 
         }
     }
